@@ -2,11 +2,13 @@
 /* CSS Document created by Jacob Appelbaum, Spring 2019*/
 
 body {
+	margin:0;
+	padding:0;
 	font-family: Impact, sans-serif;
 	font-size: 18px;
 	line-height: 3em;
 	color: #AF00FF;
-	background-color: #00B25D;
+	background-color: #FEFBFF;
 	padding: 0 50px;
 }
 
@@ -14,17 +16,19 @@ body {
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #AF00FF;
+	padding: 0 40px;
 }
 h1 {
 	font-size: 30px;
-	padding: 5px 0;
+	padding: 0 40px;
 	font-family: Arial black;
 	letter-spacing: .3em;
 	line-height: 3em;
+	margin:0;
 }
 h2 {
 	font-size: 22px;
-	padding: 9px;
+	padding: 0 40px;
 	font-family: Arial black;
 	letter-spacing: 0.2em;
 	background-color: #00FF85;
@@ -35,7 +39,7 @@ h3 {
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
 	border-bottom-color: #00FF85;
-	padding: 4px 0;
+	padding: 0 40px;
 	font-family: Arial black ;
 	font-style: italic;
 }
@@ -61,7 +65,10 @@ ul li {
 	margin-left: 15px;
 }
 ol {
-	margin-left: 15px;
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0px;
 }
 
 /* table styles -------------------------------------- */
@@ -74,7 +81,7 @@ td {
 }
 th {
 	font-weight: normal;
-	background-color: #00B25D;
+	background-color: #FEFBFF;
 	text-align: center;
 	padding: 7px;
 	border: ridge #00FF85 3px;
@@ -94,4 +101,45 @@ iframe {
 	border: ridge #00FF85 3px;
 	padding: 9px;
 	margin: 9px;
+}
+/* DIV styles for page layout*/
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+	border: 3px solid #00FF85;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#header{
+	width:100%;
+	
+	border-bottom:3px solid #00FF85;
+}
+
+#content{
+	width: 600px;
+	float: left;
+	
+}
+
+#sidebar{
+	width: 280px;
+	float: left;
+	margin-top:100px;
+	margin-right:20px;
+	
+}
+
+#sidebar p{
+	padding: 10px;
+	border: 3px solid #00FF85;
+	border-radius: 15px;
+}
+
+#footer{
+	width:100%;
+	border-top:3px solid #00FF85;
+	clear: both;
 }
