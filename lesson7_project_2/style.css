@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document created by Jacob Appelbaum, Spring 2019*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#splash {
+    background-color: #ffffff
+    height 1000px;
+}
+#overview {
+    background-color: #ffffff
+    height 1000px;
+}
+#media {
+    background-color: #ffffff
+    height 1000px;
+}
+#discography {
+    background-color: #ffffff
+    height 1000px;
+}
+#footer {
+    background-color: #ffffff
+    height 1000px;
+}
