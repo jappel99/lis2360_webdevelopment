@@ -1,0 +1,45 @@
+
+      .navbar-inverse {
+          background-color: #3083FF;        /* change navbar color to blue */
+          border-color: #222222;            /* navbar border to dark gold */
+      }
+      .navbar-inverse .navbar-nav > li > a { 
+          color: #222222; 			       /* change navbar button font color to brighter white */
+      }
+      .navbar-inverse .navbar-brand {
+          color: #222222;                   /* change title at left on navbar to brighter white */
+      }
+      @media (min-width: 768px){            /* for large display sizes ... */
+        .navbar-wrapper .navbar {           /* give nav bar rounded ends */
+          border-radius: 30px;
+        }
+        .navbar-wrapper {                   /* pull nav bar to top of display */
+          margin-top: 0px;
+        }
+      }
+      .carousel-inner > .item >img{
+        height: auto;
+      }
+     
+      @media (max-width: 899px){
+        .carousel {
+          height: 400px;
+        }
+        .carousel .item{
+          height: 400px;
+          background-color: #fff;
+        }
+      }
+    @media (max-width: 719px){
+      .carousel-inner > .item >img{
+        height: 400px;
+        width: 719px ;
+      }
+    }
+      
+    
+      
+      .carousel .item { 
+        height: 400px;
+      }
+      
